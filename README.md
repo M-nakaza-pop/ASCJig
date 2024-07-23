@@ -1,9 +1,9 @@
 
 
 
-#originにリポリトジを登録する
+# originにリポリトジを登録する
 git remote add origin https://github.com/M-nakaza-pop/ASCJig.git
-#確認
+# 確認
 git remote -v
 
 
