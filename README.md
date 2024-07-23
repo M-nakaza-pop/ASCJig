@@ -22,7 +22,7 @@ git push r_main.c (file mame)
 
 
 #
-#
+# 被cloneから作成したものをupLoadする　但し空リポジトリは作成してある
 # originにリポリトジを登録する
 git remote add origin https://github.com/M-nakaza-pop/ASCJig.git
 # 確認
