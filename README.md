@@ -1,7 +1,8 @@
 # github Flow Model
 
 # main------------------mainを残し        -----------mainに戻る
-# 　　　branch----------branchで作業-----merge
+# 　　　branch----------topicで作業-----merge
+
 
 # branch名をtopicに変える
 git branch -m topic  今いるbranchからtopicに変える
