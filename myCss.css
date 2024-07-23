@@ -1,0 +1,310 @@
+/* 
+ * aqua
+ * black
+ * blue
+ * red
+ * orange
+ * magenta
+ * fuchsia
+ * gray
+ * cyan
+ * aquamarine
+ * 
+ * 		border-bottom:	solid 4px blue;		枠線 ボトム	
+ *		border-right:	solid 4px blue;	
+ * 		font: 斜体 太さ　SIZE font-family
+*/
+
+#frame{
+	border:	solid 1px red;
+	background-color:black;
+	font:20px Sans;
+}
+#black{
+	color:black;
+	font:italic bold 20px cursive;
+
+}
+#label0{
+	color:orange;
+	font:normal bold 50px serif;
+}
+#label1{
+	color:orange;
+	font:normal bold 20px serif;
+}
+#label2{
+	color:magenta;
+	font:normal bold 40px monospace;
+}
+#label3{
+	
+	color:red;
+	font:italic bold 30px sans-serif;
+	border:	solid 1px lightgray;
+}
+#label4{
+
+	color:black;
+	font:italic bold 30px cursive;
+	border:	solid 1px lightgray;
+}
+#label5{
+
+	color:orange;
+	font:italic bold 30px normal;
+}
+#label6{
+
+	color:green;
+	font-style: normal;
+	font-size: 40px;
+	font-weight: bold;
+}
+#label7{
+	
+	color:red;
+	font:italic bold 30px sans-serif;
+	border:	solid 1px lightgray;
+}
+#label8{
+
+	color:black;
+	font:italic bold 30px cursive;
+	border:	solid 1px lightgray;
+}
+#label9{
+
+	color:orange;
+	font:italic bold 20px normal;
+}
+
+#0{
+	background:	black;
+}
+#1{
+	background:	maroon;
+}
+#2{
+	background:	red;
+}
+#3{
+	background:	orange;
+}
+#4{
+	background:	aqua;
+}
+#5{ 
+	background:	lime;	/*green*/
+}
+#6{
+	background:	blue;
+}
+#7{
+	background:	purple;
+}
+#8{
+	background:	gray;
+}
+#9{
+	background:	white;
+}
+
+
+
+
+#box_red{
+	background:	red;
+}
+#box_blue{
+	background:	blue;
+}
+#box_gray{
+	background:	gray;
+}
+#box_green{
+	background:	green;
+}
+#box_yellow{
+	background:	yellow;
+}
+#box_lime{
+	background:	lime;
+}
+#box_orange{
+	background:	orange;
+}
+#box_white{
+	background:	white;
+}
+#spinner{
+	background:	aquamarine;
+
+}
+
+#box1{
+	color:black;
+	font:italic bold 30px cursive;
+	background:	red;
+}
+#box2{
+
+	background:	blue;
+}
+#box3{
+
+	background:	yellow;
+}
+
+#box4{
+
+	background:	green;
+}
+#box5{
+
+	background:	aqua;
+}
+#box6{
+
+	background:	cyan;
+}
+
+
+
+#back{
+	color:Black;
+	background:	red;
+	font:italic bold 20px normal;
+	text-shadow: 2px 2px 2px blue;
+}
+
+/* window全体のbackground-color */
+window{
+	color:Black;
+	background-color:blue;
+	background-image:url("./image/back.bmp");
+	font:normal bold 20px Sans;
+}
+
+/* box全体のbackground-color */
+boxA{	/*windowの上になる*/
+
+	color:black;
+	background-color:fuchsia;
+	font:italic bold 50px Sans;
+	
+}
+boxC{	/*windowの上になる*/
+
+	color:black;
+	background-color:blue;
+	font:italic bold 50px Sans;
+	background-image:url("./image/kobayashi.jpg");
+}
+
+#color1{
+	color:red;
+	background-color:cyan;
+	font:italic bold 20px monospace;
+	border-radius:20px;
+}
+#color2{
+	color:orange;
+	background-color:lime;
+	font:italic bold 20px monospace;
+	border-radius:20px;
+	
+}
+#btn{
+	color:	blue;					/*	TEXT color */
+	font:italic bold 20px normal;
+	text-shadow: 2px 2px 2px red;
+	
+	background:	aqua;				/*	button color	*/
+	box-shadow:	2px 2px 2px;
+	border-radius:	3px;			/*  角丸め	*/
+}
+#btn:active{
+	color:	blue;					/*	TEXT color */
+	font:italic bold 20px normal;
+	text-shadow: 2px 2px 2px red;
+	
+	background:	lime;				/*	button color	*/
+	box-shadow:	none;
+	border-radius:	3px;			/*  角丸め	*/
+}
+
+
+
+#btn1{
+	color:	deepskyblue;
+	font:italic bold 20px normal;
+	text-shadow: -1px -1px rgba(255,255,255,0.44), 1px 1px rgba(0,0,0,0.38);
+	
+	background:	deepskyblue;
+	box-shadow:	2px 2px 2px lightblue;
+	border-radius:	3px;				/*  角丸め	*/
+}
+#btn1:active{
+	color:	deepskyblue;
+	font:italic bold 20px normal;
+	text-shadow: -1px -1px rgba(255,255,255,0.44), 1px 1px rgba(0,0,0,0.38);
+	
+	background:	deepskyblue;
+	box-shadow:	none;
+	border-radius:	3px;				/*  角丸め	*/
+}
+
+
+
+/*GtkButton*/
+#yes{
+	background-image:url("./image/CI_button_on.bmp");
+	/*color:white;
+	font:italic bold 20px Sans;
+    background-color: cyan;
+    border-radius:20px;
+    */
+    border: 0px none;			/* 縁なし */
+
+}
+
+/*GtkButton:active*/
+#yes:active{
+	background-image:url("./image/CI_button_off.bmp");
+	/* color:white;
+    background-color: blue;
+    border-radius:20px;			 ボタンの角丸め 
+	*/
+	border: 0px none;			/* 縁なし */
+
+}
+
+/*GtkButton*/
+#non{
+
+	background-image:url("./image/CI_out_on.bmp");
+	border: 0px none;			/* 縁なし */
+}
+
+/*GtkButton:active*/
+#non:active{
+	
+	background-image:url("./image/CI_out_off.bmp");
+	border: 0px none;			/* 縁なし */
+
+}
+
+
+
+
+
+
+/*GtkButton:checked {*/
+
+/* GtkToggleButtonのチェックON時 */
+button.toggle:checked {
+	color:white;
+    background-color:blue;
+    font:bold 40px Sans;
+}
