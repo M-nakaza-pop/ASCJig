@@ -21,8 +21,8 @@ git commit -m "******"
 git push r_main.c (file mame)
 
 
-
-
+#
+#
 # originにリポリトジを登録する
 git remote add origin https://github.com/M-nakaza-pop/ASCJig.git
 # 確認
