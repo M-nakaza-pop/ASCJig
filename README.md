@@ -1,3 +1,24 @@
+# github Flow Model
+
+main------------------mainを残し        -----------mainに戻る
+ 　　　branch----------branchで作業-----merge
+
+# branch名をtopicに変える
+git branch -m topic  今いるbranchからtopicに変える
+
+git branch -m 旧branch名 新branch名
+
+# [作業]
+
+# 一旦ステージングする
+git add r_main.c (file mame)
+
+# commitする
+git commit -m "******"
+
+# push
+git push r_main.c (file mame)
+
 
 
 
